@@ -38,7 +38,8 @@ body {
 }
 
 @layer base {
-  .p {
+  p {
     font-family: 'formula-regular';
   }
+  
 }
