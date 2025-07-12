@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-f1-white;
+}
+
+
+@font-face {
+  font-family: formula-regular;
+  src: url('./assets/fonts/Formula1-Regular_web_0.ttf');
+}
+
+@font-face {
+  font-family: formula-bold;
+  src: url('./assets/fonts/Formula1-Bold_web_0.ttf');
+}
+
+@font-face {
+  font-family: formula-wide;
+  src: url('./assets/fonts/Formula1-Wide_web_0.ttf');
+}
+
+@theme {
+  --color-f1-white: #F9FAFB;
+}
+
+@layer utilities {
+  .font-formula-regular {
+    font-family: 'formula-regular', 'sans-serif';
+  }
+  .font-formula-bold {
+    font-family: 'formula-bold', sans-serif;
+  }
+  .font-formula-wide {
+    font-family: 'formula-wide', sans-serif;
+  }
+  
+}
+
+@layer base {
+  .p {
+    font-family: 'formula-regular';
+  }
+}
