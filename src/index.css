@@ -41,5 +41,7 @@ body {
   p {
     font-family: 'formula-regular';
   }
-  
+  h1 {
+    font-family: 'formula-bold';
+  }
 }

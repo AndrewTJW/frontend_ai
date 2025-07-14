@@ -47,7 +47,7 @@ const InputStock = () => {
   }
   return (
     <>
-    <div className="flex justify-center">
+    <section className="h-screen flex justify-center">
       <div className="mt-4 md:mt-6 lg:mt-8 w-full max-w-md px-4">
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="block mt-16 mb-12 w-full">
@@ -91,7 +91,7 @@ const InputStock = () => {
             </div>
         )}
       </div>
-    </div>
+    </section>
     </>
   )
 }
